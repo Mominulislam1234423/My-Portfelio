@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f9fafb;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.btn button {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(255, 0, 157);
+    padding: 4px;
+    color: white;
+    border: 1px solid rgb(255, 0, 157);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color:rgb(255, 0, 153) ;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+
+.hero-text {
+    flex: 1 1 500px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    color: #111827;
+    font-size: 28px;
+}
+
+.hero-text span {
+    color: #2563eb;
+}
+
+.hero-text p {
+    margin: 1rem 0 2rem;
+    color: #555;
+    max-width: 500px;
+}
+
+.hero-buttons a {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    color: white;
+}
+
+.btn-secondary {
+    border: 1px solid #2563eb;
+    color: #2563eb;
+}
+
+.hero-img img {
+    width: 260px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 4rem 0;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #111827;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    max-width: 700px;
+    color: #555;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 1.5rem;
+}
+
+.skills span {
+    background: #e5e7eb;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    font-size: 0.9rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.project {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin: 0.8rem 0 0.5rem;
+    color: #111827;
+}
+
+.project a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.contact form {
+    max-width: 500px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .icon {
+    color: #2563eb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 26px; 
+}
+
+.icon:hover {
+    background: #1d4ed8;
+    color: white;
+}
